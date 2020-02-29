@@ -23,3 +23,25 @@ then in the command line just run
 ```
  npm i express mysql2 sequelize sequelize-cli
  ```
+
+* Click
+![View Function](./public/assets/images/clickMaster.jpg "click on master to drop down the menu"),
+
+* Add branch
+![Update function](./public/assets/images/clickMasterName.jpg "type in your name and create your branch"),
+
+
+​Type in your name and create a new branch.
+when you push your code to git hub you will 
+push to origin (your name)
+```
+push origin Jacob
+```
+
+create a pull request
+
+and then we will review it and merge it to master!
+
+but in order for branching to work we need to communicate what we are working on and when we are ready to push something to master.
+
+lets give this a go because branching is important to know to work in the tech.
