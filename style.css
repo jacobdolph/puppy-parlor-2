@@ -39,10 +39,66 @@ body {
     color: white;
 }
 
-.footer {
-    text-align: center;
+.fakeFooter {
+    height: 20vh;
+    background: lightgreen
+    box-sizing: border-box;
+    color: white;
+
 }
 
+#toby {
+    max-width: 100%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#hairDog {
+    max-width: 100%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#drinkingDog {
+    max-width: 100%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#hispterDogs {
+    max-width: 100%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerDog {
+    max-width: 100%;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
