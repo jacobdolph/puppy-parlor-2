@@ -11,7 +11,7 @@ module.exports = function (sequelize, DataTypes) {
                 allowNull: false
             }
         }),
-            Dog.hasOne(models.dogActivities, {
+            Dog.belongsTo(models.dogActivities, {
                 foreignKey: {
                     allowNull: false
                 }
