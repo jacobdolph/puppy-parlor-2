@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
 
     $(".login").on("click", function (event) {
         var id = $(this).data("id");
@@ -23,6 +23,8 @@ $(function () {
             }
         );
     });
+
+
 
 
 
