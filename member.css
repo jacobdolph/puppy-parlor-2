@@ -1,0 +1,59 @@
+
+/* Member info */
+.cardMember {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+
+  .containerMember {
+    padding: 2px 16px;
+    text-align: center;
+    border: blue solid 2px;
+  }
+
+
+
+
+/* LOGO container */
+.cardLogo {
+border: red solid 2px;
+    width: 20%;
+  }
+
+
+/* Dog Info */
+  .cardDog {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+
+  .containerDog {
+    padding: 2px 16px;
+    text-align: center;
+    border: blue solid 2px;
+  }
+
+  /* Hike Cards */
+
+  .cardHike {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+
+  .containerHike {
+    padding: 2px 16px;
+    text-align: center;
+    border: blue solid 2px;
+  }
+ 
+
+
+
+
+
+
+  
+  
