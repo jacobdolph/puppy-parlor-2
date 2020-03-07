@@ -1,7 +1,9 @@
 var express = require("express");
 var db = require("./models")
 var PORT = process.env.PORT || 8080;
-var app = express()
+var app = express();
+
+app.use(express.static("views"));
 
 
 app.use(express.urlencoded({ extended: true }));
