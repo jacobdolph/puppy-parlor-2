@@ -47,11 +47,15 @@
   .columnH {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding:10px;
+    margin: auto;
+    height: 250px;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .rowH {margin: 0 -5px;}
+  .rowH {
+    margin: 0;
+  }
   
   /* Clear floats after the columns */
   .rowH:after {
@@ -75,7 +79,12 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    height: 250px;
   }
+
+
+
+/* inside row changed to display inline-block.  Changed the row to text alien center.  then took -5 margin on both rows */
 
 
 
@@ -84,13 +93,17 @@
 /* DOGS CARDS */
 /* DOGS CARDS */
   .columnD {
-    float: left;
     width: 25%;
     padding: 0 10px;
+    height: 250px;
+    display: inline-block;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .rowD {margin: 0 -5px;}
+  .rowD {
+    margin: 0;
+    text-align: center;
+  }
   
   /* Clear floats after the columns */
   .rowD:after {
@@ -114,6 +127,7 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    height: 250px;
   }
 
 .rowLOGO {
