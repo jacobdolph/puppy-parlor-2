@@ -44,17 +44,17 @@
   }
   
   /* Float four columns side by side */
-  .column {
+  .columnH {
     float: left;
     width: 25%;
     padding: 0 10px;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .rowH {margin: 0 -5px;}
   
   /* Clear floats after the columns */
-  .row:after {
+  .rowH:after {
     content: "";
     display: table;
     clear: both;
@@ -62,7 +62,7 @@
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
-    .column {
+    .columnH {
       width: 100%;
       display: block;
       margin-bottom: 20px;
@@ -70,7 +70,7 @@
   }
   
   /* Style the counter cards */
-  .card {
+  .cardH {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
@@ -83,17 +83,17 @@
 /* DOGS CARDS */
 /* DOGS CARDS */
 /* DOGS CARDS */
-  .column2 {
+  .columnD {
     float: left;
     width: 25%;
     padding: 0 10px;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row2 {margin: 0 -5px;}
+  .rowD {margin: 0 -5px;}
   
   /* Clear floats after the columns */
-  .row2:after {
+  .rowD:after {
     content: "";
     display: table;
     clear: both;
@@ -101,7 +101,7 @@
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
-    .column2 {
+    .columnD {
       width: 100%;
       display: block;
       margin-bottom: 20px;
@@ -109,12 +109,24 @@
   }
   
   /* Style the counter cards */
-  .card2 {
+  .cardD {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
   }
+
+.rowLOGO {
+    border: crimson solid 2px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
  
 
 
