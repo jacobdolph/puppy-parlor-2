@@ -2,17 +2,29 @@
 /* Member/Logo card */
 /* Member/Logo card */
 /* Member/Logo card */
+/* inside colunm changed to display inline-block.  Changed the row to text alien center.  then took -5 margin on both rows */
 
 * {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
 .columnM {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  display: inline-block;
+  width: 25%;
+  padding:10px;
+  margin: auto;
+  height: 250px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowM {
+  margin: 0;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -22,11 +34,22 @@
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive columns */
 @media screen and (max-width: 600px) {
   .columnM {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+}
+
+/* Style the counter cards */
+.cardM {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 250px;
 }
 
 
@@ -84,64 +107,10 @@
 
 
 
-/* inside row changed to display inline-block.  Changed the row to text alien center.  then took -5 margin on both rows */
+/* inside colunm changed to display inline-block.  Changed the row to text alien center.  then took -5 margin on both rows */
 
 
 
-
-/* DOGS CARDS */
-/* DOGS CARDS */
-/* DOGS CARDS */
-  .columnD {
-    width: 25%;
-    padding: 0 10px;
-    height: 250px;
-    display: inline-block;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .rowD {
-    margin: 0;
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .rowD:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .columnD {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .cardD {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    height: 250px;
-  }
-
-.rowLOGO {
-    border: crimson solid 2px;
-    padding: 15px;
-    margin: 20px;
-    margin-top: auto;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
- 
 
 
 
