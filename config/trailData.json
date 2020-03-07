@@ -1,0 +1,972 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CrQCIgEAABF9ssRQ94HU20vpjHFzFQHrJfMTOu_uFkVmCBLVjp6OiSS3gQD7V0PAzoz-s52rrQeZtRBfIsYpdTKB1I6kIyBZqatBHohr3egRzZvdzlZePfZnXapW2P6J0uMTwbsdqX2ByBX5_M2J4gBccwmt-_BmZMP_Oxgyp_yyl5XDVVloH02yEBAUgBZtlMIk3ImaDHqfp9f_4pP8P9yYcgGi9b-B4V5gkGcyq3ZaopAYvfI_OeoBGCWUKMKmk-nWZ6aUFvL5gjFAHZ9BbItotzdjHF2fiIPdFMHdUfEi9twWWGSsF6_R5X1IdvuIkzycCU8gvaS_GI29KziYznV79j8l6QmMNigOy2ThsCuIsS33HDItDmlhT32sgBO0Dr6N8JqHaox4_inDsTBSMvgnkG5onz4SEG6ufTtTaC4aF8v6OuW1hDwaFO-Gn3vs4i6OdU16cn7VgPiRHuDw",
+    "results": [
+        {
+            "formatted_address": "7721 Timberline Dr, Cottonwood Heights, UT 84121, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6103538,
+                    "lng": -111.7881691
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.61171512989272,
+                        "lng": -111.7868748701073
+                    },
+                    "southwest": {
+                        "lat": 40.60901547010727,
+                        "lng": -111.7895745298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "14ac83b45d8a1a1dd5941e90546ccdf906e25c05",
+            "name": "Ferguson Canyon Trail Head",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108626805580478086142\">Charles Gilman</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA03dKFfHVLFBxB233mveELYYJ18mUm7C3hUUyXcTX9v9LTVsNIXtJow0vLF5TCGYZLpe4jAVsC9Dzrx_jo1Si4OJ2lN6I3NAwJpDZbuVegiz7qXFQTnoWfAqif7h0UZdmEhArUAd6kuVVLBC9gjJG_vYeGhQCA7iQlZYQAmI6GFdCDeFlkwB5mg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ9bzmVDhjUocRIJO2I_3bEhE",
+            "plus_code": {
+                "compound_code": "J666+4P Cottonwood Heights, Utah",
+                "global_code": "85GCJ666+4P"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ9bzmVDhjUocRIJO2I_3bEhE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 200
+        },
+        {
+            "formatted_address": "7485 Siesta Dr, Cottonwood Heights, UT 84093, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6140872,
+                    "lng": -111.8440829
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.61498037989273,
+                        "lng": -111.8428402201073
+                    },
+                    "southwest": {
+                        "lat": 40.61228072010728,
+                        "lng": -111.8455398798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "c7a9db24e02fbb5930f6e2228ba3b736781e401a",
+            "name": "Crestwood Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111327530732019201136\">Aaron Burt</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4FStjU_7mglqy6_ZeHydWsP_WhpKKJhw02K4YBLPxNwScu7fXJjFse8G1O4sQ1N1lRUErkZTj97YWDYk39wYPu5jNiUknXGkW89dC01HBDAnpblufTenOHIpBhCmyYH-EhAufKkVCV2bMkZBWMNuCaT7GhS9zOhd2yxuZhKGREXPN5LM9PFHvA",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJuc818JBiUocR_uqByIHiJ-c",
+            "plus_code": {
+                "compound_code": "J574+J9 Cottonwood Heights, Utah",
+                "global_code": "85GCJ574+J9"
+            },
+            "rating": 4.6,
+            "reference": "ChIJuc818JBiUocR_uqByIHiJ-c",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 286
+        },
+        {
+            "formatted_address": "Big Cottonwood Canyon Rd, Salt Lake City, UT 84121, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6493332,
+                    "lng": -111.6618541
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.65065117989273,
+                        "lng": -111.6604243201073
+                    },
+                    "southwest": {
+                        "lat": 40.64795152010728,
+                        "lng": -111.6631239798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "8601825b8dc301c97ce5b89491d085bac7b776a3",
+            "name": "Butler Fork to Dog Lake Trail",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2885,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116488246101891916775\">Justin Hellstrom</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA5ILRR4c5pnOdwinkwimkuBgIbixXqIK61Bl3Yi4ddkj_gAtUFXvtInghxDEVWBcRmGdyKLWDuulGjH3qDlDiaBUNaCkMNOSoi_9ebfbJT-aTjWBA4yv3KpVJWqYkqanyEhAkjDpVb9XcugRBlK_k6m9uGhTEZLxHfpFaqoSNFp_nNP5SVZhNEQ",
+                    "width": 5545
+                }
+            ],
+            "place_id": "ChIJWyXHa4lvUocRdV6I1gaxeXs",
+            "plus_code": {
+                "compound_code": "J8XQ+P7 Alta, Utah",
+                "global_code": "85GCJ8XQ+P7"
+            },
+            "rating": 4.6,
+            "reference": "ChIJWyXHa4lvUocRdV6I1gaxeXs",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 73
+        },
+        {
+            "formatted_address": "2667 Heritage Way, Salt Lake City, UT 84109, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7114754,
+                    "lng": -111.8155938
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.71282572989272,
+                        "lng": -111.8142439701073
+                    },
+                    "southwest": {
+                        "lat": 40.71012607010728,
+                        "lng": -111.8169436298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "a9be83b5338115f3aab59ac02801b0b414290e5f",
+            "name": "Parleys Historic Nature Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110959358334388805699\">Roger Keating</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA_I4jxof8mGm72_AKepUbG9UbeF5OUWgkYrlBu7r1LTRrBqSHxeQOOPBc_zuNdeVW5LBuN2Jd8H1uIpt_7mrRiTbPuO2Q322-B2cvn7oNsF4bwl1wt8RRzL7eiqNyzZLIEhDif5JrIda1NXjmyBgd6TWDGhSq506rmt6fkOPR9BEh5Jckt8XpmQ",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJjQQBOgBhUocRbGI6QLT_vm4",
+            "plus_code": {
+                "compound_code": "P56M+HQ Salt Lake City, Utah",
+                "global_code": "85GCP56M+HQ"
+            },
+            "rating": 4.7,
+            "reference": "ChIJjQQBOgBhUocRbGI6QLT_vm4",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 451
+        },
+        {
+            "formatted_address": "2660 Heritage Way, Salt Lake City, UT 84109, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7118607,
+                    "lng": -111.8169877
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.71293402989272,
+                        "lng": -111.8156479701073
+                    },
+                    "southwest": {
+                        "lat": 40.71023437010728,
+                        "lng": -111.8183476298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "33010a03f0dc5a078e7864e60b8d73e5c89d9667",
+            "name": "Tanner Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102178798909592774783\">D. Ryan Doto</a>"
+                    ],
+                    "photo_reference": "CmRaAAAArZc9i4q5YLHCkFF1kcmKBAjriqqo8fIha1VKhvNRxOTZM3r7HSoQ-NNAbNzoF7b0jkmSueRa1cUoyKOCqboR0GG4EXi6M3q8pNZDJpPOgaKLqoyonrizfM5kVjB09d95EhCh28rpsNOEsUMHT9YU-3sfGhTyhyb0NMmuhdQ1Wh7sQjyvHDldDg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJWVASqFNgUocRE9-6Kq6XO5I",
+            "plus_code": {
+                "compound_code": "P56M+P6 Salt Lake City, Utah",
+                "global_code": "85GCP56M+P6"
+            },
+            "rating": 4.6,
+            "reference": "ChIJWVASqFNgUocRE9-6Kq6XO5I",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 991
+        },
+        {
+            "formatted_address": "4326 White Way, Salt Lake City, UT 84124, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6761528,
+                    "lng": -111.7751052
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.67751167989272,
+                        "lng": -111.7737202701073
+                    },
+                    "southwest": {
+                        "lat": 40.67481202010728,
+                        "lng": -111.7764199298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "1a52d47284543f044b4f64ea396d8ef37747881f",
+            "name": "Neffs Canyon",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117489935459677300034\">Katrina M</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAXIg4qztFpulIR0FVuuhKr8b6xF262g_tc3qlQ0ZN5OGjac-cYlMdafcpH2-wNRaaHXa-xwHOVMzYa1xboWfZk2T19NXmSJnGOEGePdfWaKkOPCJb2CCG_EgcBG3foKPREhDGvsYHQoasdtgLXVtlp3q7GhRM0XTcwLRbCLsJz3rHYQNLv1RK6w",
+                    "width": 1960
+                }
+            ],
+            "place_id": "ChIJX-UCF-NjUocRdQbRzPwKhdM",
+            "plus_code": {
+                "compound_code": "M6GF+FX Mount Olympus, Millcreek, UT",
+                "global_code": "85GCM6GF+FX"
+            },
+            "rating": 4.7,
+            "reference": "ChIJX-UCF-NjUocRdQbRzPwKhdM",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 362
+        },
+        {
+            "formatted_address": "10600 S 1300 E, Sandy, UT 84092, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5597214,
+                    "lng": -111.8275165
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.56107122989273,
+                        "lng": -111.8261666701073
+                    },
+                    "southwest": {
+                        "lat": 40.55837157010728,
+                        "lng": -111.8288663298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "55fb755a9f2ad91512a33686ba3c24445dace0d7",
+            "name": "Dimple Dell Regional Park",
+            "opening_hours": {},
+            "photos": [
+                {
+                    "height": 1440,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112917884443322390800\">Mark Angelides</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4NbcWWcnFMUBFbHpvd21gHrBwY2ULi7PUNPd2fmatUhrMZkm3Rnra1HI3CkQL_lr-TV39ZNcgiIeoboC1ISaBGgIZ8rfelOfZSD0gFRHFfLs21xAUq4gJRDEJyWkdH8ZEhA4t9DCiZ0yisA_QiMU_ifQGhSTWK5BUNX07y8Onqk3BqQgOcB26g",
+                    "width": 2560
+                }
+            ],
+            "place_id": "ChIJVWUOWhJ9UocRcZVhPcLKlTQ",
+            "plus_code": {
+                "compound_code": "H55C+VX Sandy, Utah",
+                "global_code": "85GCH55C+VX"
+            },
+            "rating": 4.6,
+            "reference": "ChIJVWUOWhJ9UocRcZVhPcLKlTQ",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 535
+        },
+        {
+            "formatted_address": "Rocky Mouth Trail, Sandy, UT 84092, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5430556,
+                    "lng": -111.8036111
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.54440542989273,
+                        "lng": -111.8022612701073
+                    },
+                    "southwest": {
+                        "lat": 40.54170577010728,
+                        "lng": -111.8049609298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "dcecf232a71df51f7d70792bd41f1824d4a73b65",
+            "name": "Rocky Mouth Waterfall",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107666071990892788020\">Jean S</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAsZwZX-muD-LMocp0-ghHdkeyxxDL1f3KhZi5RW33WMkIUz_cjmpjYM9pZ3Pj6_A4yQNquDXenwA3EiwD4ySsX6gDZR-9ACvStj1RdfIWlyR2wEx1N9ifNCCzZd1h4mWQEhAPfrkmvaghuPDw2aqTHvodGhT01CG9YCGLBY1RdNeweOKJ6qyVBg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJb-fRBkx8UocRycWeRK-k6vg",
+            "plus_code": {
+                "compound_code": "G5VW+6H Sandy, Utah",
+                "global_code": "85GCG5VW+6H"
+            },
+            "rating": 4.7,
+            "reference": "ChIJb-fRBkx8UocRycWeRK-k6vg",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 482
+        },
+        {
+            "formatted_address": "Draper, UT 84020, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5211663,
+                    "lng": -111.8288433
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.52251612989272,
+                        "lng": -111.8274934701073
+                    },
+                    "southwest": {
+                        "lat": 40.51981647010727,
+                        "lng": -111.8301931298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "81b9507f7675669be8505927d6f538fbdd24f797",
+            "name": "Cherry Canyon Logging Trail",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103477432358465863162\">Amber Nelson</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAv5KwlaZPMKy-EQpCgKqdZW5ndI-YPNTQ8XqxPi_xlnxQGRFkR9zd3GxlCtuwB9MMa8nmyOanCvCnV2dmjNcEoBTbKUg0C5Ea-4-i8rpFz65cXteY7szJUk6CF3QrEbgkEhDREYVWz1xUYYCnR28e88fIGhQhCgftKVRboi-uv35Z7Bfw68o-Ew",
+                    "width": 3744
+                }
+            ],
+            "place_id": "ChIJY3sR9Nx9UocRQrShEd_Wtlg",
+            "plus_code": {
+                "compound_code": "G5CC+FF Draper, Utah",
+                "global_code": "85GCG5CC+FF"
+            },
+            "rating": 4.7,
+            "reference": "ChIJY3sR9Nx9UocRQrShEd_Wtlg",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 32
+        },
+        {
+            "formatted_address": "11248 Wasatch Blvd, Sandy, UT 84092, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5470943,
+                    "lng": -111.8064344
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.54846017989272,
+                        "lng": -111.8052081701073
+                    },
+                    "southwest": {
+                        "lat": 40.54576052010728,
+                        "lng": -111.8079078298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "id": "4eaa2fd0b0504304a14bf25d1b74469cc044b880",
+            "name": "Rocky Mouth Trail Head",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110710555262396569937\">Brutal Jester</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAqzLEzp_V5mBq-8YObeH2a9FLjV1KGSl_IiXlIMgwO8TU00aP2QkWvPkevVqkcrlFCPHJT36GuJ9M8TN7Zw-cQaoH5Dn3faBucwi3yp1LufRBJgJ7JVcZVSYsW7F1owYjEhBzRXDvMZSWhzvOc2qyraKVGhQXYZhoNHr2BojZMB9b3ObuMfVNdg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJ81lHfk18UocRoD_asWC52Yc",
+            "plus_code": {
+                "compound_code": "G5WV+RC Sandy, Utah",
+                "global_code": "85GCG5WV+RC"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ81lHfk18UocRoD_asWC52Yc",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 230
+        },
+        {
+            "formatted_address": "Lake Mary Trail, Salt Lake City, UT 84121, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.58950189999999,
+                    "lng": -111.5840535
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.59084077989272,
+                        "lng": -111.5827019201073
+                    },
+                    "southwest": {
+                        "lat": 40.58814112010727,
+                        "lng": -111.5854015798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "fcf9ba8c32b182fe17fa891dd6d59fafda478bdf",
+            "name": "Junction Dog Lake Trail",
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100906164695995913111\">Jonathan Davies</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA3-O59aW1IPg0kq101Kg1Aw81tlwFxawCdoNintsX4d_qemib852kaUYuYxPLtlwHrsVAC4LxIM62-c2utB-4ETR2-efQPaJGDsGYGU6WEmMAGfJz3CnQOBpB4gE_thOHEhBhykf_9EVmztw30tZkuGpMGhRbh_5SqUUF_WDhkvjHtTYW-jRGtA",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJM2uDlW9xUocRcQzqa0jF-Ho",
+            "plus_code": {
+                "compound_code": "HCQ8+R9 Alta, Utah",
+                "global_code": "85GCHCQ8+R9"
+            },
+            "rating": 4.6,
+            "reference": "ChIJM2uDlW9xUocRcQzqa0jF-Ho",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 25
+        },
+        {
+            "formatted_address": "1150 W 5400 S, Taylorsville, UT 84123, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6551204,
+                    "lng": -111.9246755
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.65610662989273,
+                        "lng": -111.9232635701073
+                    },
+                    "southwest": {
+                        "lat": 40.65340697010728,
+                        "lng": -111.9259632298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "4fd2a83e42a0d325add3f61c72772f6fd027bd11",
+            "name": "Millrace Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3120,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113207749946341117925\">Tyson Hepworth</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAmYe8uffBmkyF5xytcw70tDOK8tSApHq7BdWu8vmBwJP8m7r5kT253gViD9dTzOy_2_CWFsfumd-N0wClbuxMbaHOxsRU0lvsDhaXzR-i0Ezw_0YC4U_HeFkBZ2nAB_MMEhAiGpKb-jF-u6hq9Cg2Q2_gGhRlybXh0csyDOsv3Br2GWNLBQbq_g",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJF8QoIdyLUocRM7u78OhQ6mQ",
+            "plus_code": {
+                "compound_code": "M34G+24 Taylorsville, Utah",
+                "global_code": "85GCM34G+24"
+            },
+            "rating": 4.2,
+            "reference": "ChIJF8QoIdyLUocRM7u78OhQ6mQ",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 506
+        },
+        {
+            "formatted_address": "5243 Murray Pkwy Ave, Murray, UT 84123, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6575353,
+                    "lng": -111.9184702
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.65889642989273,
+                        "lng": -111.9171374701073
+                    },
+                    "southwest": {
+                        "lat": 40.65619677010729,
+                        "lng": -111.9198371298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "100f1d82822121f5652420807eb5874c9c61b4f0",
+            "name": "Germania Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101674905204252826978\">Abby Hulick</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA2lfz5iR9-S0ukyTKZY_-LFJ5rBo8m0RUUdcyp027EtL8w3eQsAFWgwnPgbf7HBe4gGJB4d9uTczCJ9E5sa54L5Md2AwGeNbpWCbeGRZIoNOysviImwTPhsITkb14afv3EhB4qRFAgxaSdZ6DiSDhFNBiGhQ7qVHL7cW7SllmqO6aDl99GZvq7A",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJkWnTBtuLUocRwM6sktUg3MU",
+            "plus_code": {
+                "compound_code": "M35J+2J Murray, Utah",
+                "global_code": "85GCM35J+2J"
+            },
+            "rating": 4.5,
+            "reference": "ChIJkWnTBtuLUocRwM6sktUg3MU",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 233
+        },
+        {
+            "formatted_address": "2870 E 2850 S, Salt Lake City, UT 84109, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7104782,
+                    "lng": -111.8092842
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.71125202989273,
+                        "lng": -111.80844295
+                    },
+                    "southwest": {
+                        "lat": 40.70855237010728,
+                        "lng": -111.81180795
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "06a472a219c34376e0bee2a21dad69c8e06deb51",
+            "name": "Tanner bike trails",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3646,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113512951115941502720\">Sarah Kesselbrenner</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAThIyoWGSJRJm81b918NTQ-mK0dl0FY3kcp4oHPIBJnjLvNniH4vrT-wFdnFM7-ERvfV0-E2aboevljas6QDC1UFNP3GbM_ZHgJCmxdmVZ-LEvAKYsq7xpxjrXEYxVf3hEhCvnYclBq0alSr-d13YnHO-GhQ1HaviK2GKEMV9nyh5TMoHmp8I5A",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJiRcOp6phUocR__8OKIkjk0s",
+            "plus_code": {
+                "compound_code": "P56R+57 Canyon Rim, Millcreek, UT",
+                "global_code": "85GCP56R+57"
+            },
+            "rating": 4.7,
+            "reference": "ChIJiRcOp6phUocR__8OKIkjk0s",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 75
+        },
+        {
+            "formatted_address": "9980 S 300 E, Sandy, UT 84070, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5697403,
+                    "lng": -111.8828988
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.57106427989273,
+                        "lng": -111.8810353701073
+                    },
+                    "southwest": {
+                        "lat": 40.56836462010728,
+                        "lng": -111.8837350298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "3e7f62e611d7cd88c431a9ca4cd762d6ce1a3ad6",
+            "name": "Sandy City Dog Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 5248,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100858726754743128887\">Jeremy Allan</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAex8_jwU6hoUqbxCtfCK9Jo4IbsgO49dAtPZMsOft8j0XNlX7xD7IeGOiyj7OnX8A-_hUuTEAKwRaC89njlMGBTXoPn0tvZbFByDLkho1doylSweHPIKYCJgQM8XI3KQeEhAiJ9EdjLrX3ObeE3BKs38XGhTUbMf5kdNo74UeTjDPG4JMnu48Ew",
+                    "width": 3936
+                }
+            ],
+            "place_id": "ChIJa-BNlsKHUocRWGk1qM22D2Y",
+            "plus_code": {
+                "compound_code": "H498+VR Sandy, Utah",
+                "global_code": "85GCH498+VR"
+            },
+            "rating": 4.2,
+            "reference": "ChIJa-BNlsKHUocRWGk1qM22D2Y",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 438
+        },
+        {
+            "formatted_address": "2903 Kennedy Dr, Salt Lake City, UT 84108, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7485741,
+                    "lng": -111.8093488
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.74982342989271,
+                        "lng": -111.8079997701073
+                    },
+                    "southwest": {
+                        "lat": 40.74712377010727,
+                        "lng": -111.8106994298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "230c8c7693a68167b74dd2b390868aac2ffd2de3",
+            "name": "Donner Trail Park",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113012450400284169598\">Loren Kuttler</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA-lArBgd0MgUkAbVzwmA_Np8dTI-89qnmcbHoFmlFID9iJfx42QGiamnGMW-cakpKsK9ObqPLCrCWpivRMGeWMqAm7hpbjiNBmJBNWSACZLuKMa4S9sL_QedtEBaMbV-IEhBAy2KWdHA6NlWvN7ohJCT5GhRQ1DPfRw6vChLrKPq3Qp8okLAnMQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJWyy22H9gUocROtiWRBieXFA",
+            "plus_code": {
+                "compound_code": "P5XR+C7 Salt Lake City, Utah",
+                "global_code": "85GCP5XR+C7"
+            },
+            "rating": 4.5,
+            "reference": "ChIJWyy22H9gUocROtiWRBieXFA",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 52
+        },
+        {
+            "formatted_address": "3450 Little Cottonwood Rd, Sandy, UT 84092, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.5651251,
+                    "lng": -111.7965661
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.56647492989272,
+                        "lng": -111.7952162701073
+                    },
+                    "southwest": {
+                        "lat": 40.56377527010728,
+                        "lng": -111.7979159298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "e7e3fe16c184ce0777dce1c7519a6d8c88917b16",
+            "name": "Lower Bell Canyon Reservoir",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 810,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117183770194303167332\">Drew Roberts</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAo2xiDLEtkbARskaUYgTcIDzcm5It-K84PF6WslzoJqFwUuZbwOa7IFjjeN4_15JQc_YRku17Cd84PMlnqLHFyi5p61-KW4WQaLG2riKfdvFD8Cukz21RLd_XZKXaFEVmEhAwJHluTu6b1d_rbRWlaikdGhTAA7bMofPkFHQ-PX0We6-FfEuJwQ",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJ-bOW7PB8UocRvLVDg9y2sSQ",
+            "plus_code": {
+                "compound_code": "H683+39 Sandy, Utah",
+                "global_code": "85GCH683+39"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ-bOW7PB8UocRvLVDg9y2sSQ",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 343
+        },
+        {
+            "formatted_address": "Salt Lake City, UT 84106, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7241679,
+                    "lng": -111.8562996
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.72551772989272,
+                        "lng": -111.8549497701073
+                    },
+                    "southwest": {
+                        "lat": 40.72281807010728,
+                        "lng": -111.8576494298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "6c4a7b8873857c9a6da9de603183f759fc3d5e56",
+            "name": "Hidden Hollow",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3036,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106172310095300754328\">Jennifer Caress</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAR_RLm1JGfM5RTRqzMbda8e7aQnEgwm9qJeaXK1O_MV1rnOHdnLa-okDVuwjiAw-FgAf_kkPJ47oEdzfVmoAxDs2jl700yrk4y7fYyhRxxvMlKrj0O80b0y1jrKn96SgPEhAK10SjnvksfJ4yYgx9GEasGhTuDoM2YGCJOLZ3C5MauY8FO1C4Ig",
+                    "width": 4048
+                }
+            ],
+            "place_id": "ChIJvyhVLB5gUocRM2G18OPNg0k",
+            "plus_code": {
+                "compound_code": "P4FV+MF Salt Lake City, Utah",
+                "global_code": "85GCP4FV+MF"
+            },
+            "rating": 4.5,
+            "reference": "ChIJvyhVLB5gUocRM2G18OPNg0k",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 111
+        },
+        {
+            "formatted_address": "Mill Creek Canyon Rd, Salt Lake City, UT 84109, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.6846044,
+                    "lng": -111.6468508
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.68592112989273,
+                        "lng": -111.6454820201073
+                    },
+                    "southwest": {
+                        "lat": 40.68322147010728,
+                        "lng": -111.6481816798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "9c403005e03cd8f751a914788578919244bab77f",
+            "name": "Lower Big Water Trailhead",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115132572337114930450\">Mike Phillips</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAljpsNJRbrH4Ia-oOI6EsXcC86mKID__Oqnb6_UD1n-9uKco98J00fuVNrjSoS0w1o-Z1yIYP_vX6_lgiW_CeTc_YktEzl0I9BjA_WA2hwDFvcLhsvlT9l31r1PYs-rx5EhBY5L8dxX3xW3gfr5QFDTpxGhS8maWTteBffPMQq8EcdvkVOLFYdg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJU7p9DWpvUocRnPvUQGjB9Vw",
+            "plus_code": {
+                "compound_code": "M9M3+R7 Summit Park, Utah",
+                "global_code": "85GCM9M3+R7"
+            },
+            "rating": 4.6,
+            "reference": "ChIJU7p9DWpvUocRnPvUQGjB9Vw",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 30
+        },
+        {
+            "formatted_address": "Salt Lake City, UT 84109, United States",
+            "geometry": {
+                "location": {
+                    "lat": 40.7151821,
+                    "lng": -111.8086036
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.71662087989272,
+                        "lng": -111.8073946701073
+                    },
+                    "southwest": {
+                        "lat": 40.71392122010728,
+                        "lng": -111.8100943298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+            "id": "7d0cc5267b9d2989f834b488a56c8dd6774dd786",
+            "name": "Parley's Way Park",
+            "opening_hours": {},
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107702554992980548838\">A Google User</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAwtG2Q9VwZ_sSXreLjNeB6pabVyMlg6aALp5QH7wGuHG3w9zHQtK1PDhhfZoYhLo5UVyTMBlNsIM6KokvxCjor0ulAnyRbr_rTiTQ6dlF--2jALCUhZjdq_V1WDgAyHMlEhAnhFmfao9WKYiSfXrBWRM4GhQArvmBuGECWstreffLu-ZrAZfEuA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJbXZfDlZgUocRLLi74DY-460",
+            "plus_code": {
+                "compound_code": "P58R+3H Salt Lake City, Utah",
+                "global_code": "85GCP58R+3H"
+            },
+            "rating": 4.6,
+            "reference": "ChIJbXZfDlZgUocRLLi74DY-460",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 60
+        }
+    ],
+    "status": "OK"
+}
