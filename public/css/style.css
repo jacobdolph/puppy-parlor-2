@@ -99,6 +99,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+ }
 
 
 
