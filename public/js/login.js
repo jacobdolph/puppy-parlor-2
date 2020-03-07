@@ -18,7 +18,7 @@ $(document).ready(function () {
         email.val("");
         password.val("");
     });
-    function loginUser(email, password) {
+    function loginUser(email, passgitword) {
         $.post("/api/login", {
             email: email,
             password: password
