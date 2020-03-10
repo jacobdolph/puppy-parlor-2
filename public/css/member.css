@@ -1,38 +1,53 @@
-
-/* Member/Logo card */
-/* Member/Logo card */
-/* Member/Logo card */
-
-* {
-  box-sizing: border-box;
+.gallerycontent{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #ECA2C8 ;
+  margin-top: auto;
+  padding: auto;
 }
 
-/* Create two equal columns that floats next to each other */
-.columnM {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+.row {
+  margin-top: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Clear floats after the columns */
-.rowM:after {
-  content: "";
-  display: table;
-  clear: both;
+.card-text {
+  text-align: center;
+  height: 20px;
+  font-weight: bolder;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .columnM {
-    width: 100%;
-  }
+.card-body2 {
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 
-/* HIKE CARDS */
-/* HIKE CARDS */
+
+/* Inside memeber card */
+
+p {
+  font-size: x-large;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p2 {
+  font-size: large;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+
+
 /* HIKE CARDS */
 
   * {
@@ -47,22 +62,15 @@
   .columnH {
     float: left;
     width: 25%;
-    padding:10px;
     margin: auto;
-    height: 250px;
+    height: 354px;
   }
   
-  /* Remove extra left and right margins, due to padding */
+
   .rowH {
     margin: 0;
   }
   
-  /* Clear floats after the columns */
-  .rowH:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
@@ -76,69 +84,39 @@
   /* Style the counter cards */
   .cardH {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-    height: 250px;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
+/* Inside Local Hiking */
 
-
-/* inside row changed to display inline-block.  Changed the row to text alien center.  then took -5 margin on both rows */
-
-
-
-
-/* DOGS CARDS */
-/* DOGS CARDS */
-/* DOGS CARDS */
-  .columnD {
-    width: 25%;
-    padding: 0 10px;
-    height: 250px;
-    display: inline-block;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .rowD {
-    margin: 0;
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .rowD:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .columnD {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .cardD {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    height: 250px;
-  }
-
-.rowLOGO {
-    border: crimson solid 2px;
-    padding: 15px;
-    margin: 20px;
-    margin-top: auto;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+.local {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
 }
+
+p1 {
+  font-size: xx-large;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+/* Footer */
+
+#footerDog {
+  max-width: 100%;
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
 
 
  

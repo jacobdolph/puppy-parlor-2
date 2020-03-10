@@ -14,8 +14,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">Puppy Parlor</a>
+    <nav class="navbar sticky-top navbar-dark navbar-expand-md" style="background-color: #2E3192;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,25 +35,65 @@
                     <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
+
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="fas fa-user"></span> Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="fas fa-sign-in-alt"></span> Login</a>
+                </li>
+            </ul>
+
         </div>
     </nav>
 
     <!-- Member Card and Logo Card -->
 
 
-    <div class="card" style="width: 25rem;">
-        <img class="card-img-top" src="IMGs/IMG_3187 (2).jpg">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
-    </div>
+    <div class="containerpro">
 
-    <div class="card" style="width: 25rem;">
-        <img class="card-img-top" src="IMGs/puppyParlor.png">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+        <div row="midsection">
+            <div class="gallerycontent">
+
+
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/images/IMG_3187 (2).jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Robert J Bovee</p>
+                            <button type="button" class="btn btn-primary btn-lg btn-block"
+                                style="background-color: #C2272D;">Add a Puppy!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/images/labrador-retriever-dog-662417.jpg" class="card-img-top">
+                        <div class="card-body2">
+                            <p2 class="dog-name">Name: Toby</p2>
+                            <br>
+                            <p2 class="breed">Breed: Labrador Retriever</p2>
+                            <br>
+                            <p2 class="color">Color: Yellow</p2>
+                            <br>
+                            <p2 class="age">Age: 3 Years</p2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/images/black-and-white-photo-of-clocks-707676.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary btn-lg btn-block"
+                                style="background-color:#C2272D;">Book a time!</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -63,30 +102,12 @@
 
     <!-- DOG Continer -->
 
-    <div class="rowD">
-        <div class="columnD">
-            <div class="cardD">
-                <h3>DOG 1</h3>
-                <p>Some text</p>
-            </div>
-        </div>
-
-        <div class="columnD">
-            <div class="cardD">
-                <h3>DOG 2</h3>
-                <p>Some text</p>
-            </div>
-        </div>
-
-        <div class="columnD">
-            <div class="cardD">
-                <h3>DOG 3</h3>
-                <p>Some text</p>
-            </div>
-        </div>
-    </div>
 
     <!-- Hike Cards -->
+
+    <div class="local">
+        <p1>Local hiking trails in your area.</p1>
+    </div>
 
     <div class="rowH">
         <div class="columnH">
@@ -118,8 +139,12 @@
         </div>
     </div>
 
+    <div class=" footer">
+        <img id="footerDog" src="./assets/images/puppyParlor.png">
+    </div>
 
 
+    <script src="./js/member.js"></script>
 </body>
 
 </html>
