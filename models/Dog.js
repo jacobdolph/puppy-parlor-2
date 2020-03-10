@@ -10,7 +10,12 @@ module.exports = function (sequelize, DataTypes) {
             foreignKey: {
                 allowNull: false
             }
-        });
+        }),
+            Dog.belongsTo(models.dogActivities, {
+                foreignKey: {
+                    allowNull: false
+                }
+            });
     };
 
     return Dog;

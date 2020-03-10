@@ -126,6 +126,7 @@ body {
 
 
 /* Contact Writing */
+<<<<<<< HEAD:style.css
 
 p {
     text-align: center;
@@ -144,8 +145,21 @@ h1 {
 }
 
 
+=======
+>>>>>>> 2b8bd82221c658dd5c93b55af667cb2969096e0d:public/css/style.css
 
+p {
+    text-align: center;
+    font-size: xx-large;
+}
 
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: #ECA2C8 ;
+}
 
-
-
+.card2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
