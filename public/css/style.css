@@ -81,6 +81,7 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
+    margin-left: auto;
     border-radius: 50%;
 }
 
@@ -110,14 +111,14 @@ body {
     border-radius: 50%;
 }
 
-#bestis {
+#bestof {
     max-width: 100%;
     height: auto;
     height: 60vh;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    margin-right: auto;
+    margin-left: auto;
     border-radius: 50%;
 
 }
@@ -144,36 +145,42 @@ body {
 
 /* Contact Writing */
 
-p {
+
+
+
+#ConUs {
     text-align: center;
     font-size: xx-large;
+    font-weight: bolder;
+    color: red;
 }
 
-h1 {
-    font-size: xx-large;
-    text-align: center;
-    color: #ECA2C8 ;
-}
-
-.card2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-
-
-p {
+#roomsText {
     text-align: center;
     font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+
 }
 
-h1 {
-    font-size: xx-large;
+#hairDogTest {
     text-align: center;
-    color: #ECA2C8 ;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
 }
 
-.card2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+#aboutUstext {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+
+}
+
+#logoText {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
 }
