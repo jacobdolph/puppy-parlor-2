@@ -36,13 +36,54 @@ VALUES ("Pat", "Lacosta", "patDoe@gmail.com", "1113331", "2020-01-01 10:10:10", 
 -- seed for dog activities
 INSERT INTO dogactivities (trailDistance, feedFrequency, feedAmount, createdAt, updatedAt)
 VALUES ("5", "Twice a Day", "One Cup Per Day", "2020-01-01 10:10:10", "2020-01-01 10:10:10");
+<<<<<<< HEAD
+INSERT INTO dogactivities (trailDistance, feedFrequency, feedAmount, createdAt, updatedAt)
+VALUES ("10", "Twice a Day", "Two Cups Per Day", "2020-01-01 10:10:10", "2020-01-01 10:10:10");
+INSERT INTO dogactivities (trailDistance, feedFrequency, feedAmount, createdAt, updatedAt)
+=======
 INSERT INTO dogactivities (trailDistance, feedFrequency, feedAmount,, createdAt, updatedAt)
 VALUES ("10", "Twice a Day", "Two Cups Per Day", "2020-01-01 10:10:10", "2020-01-01 10:10:10");
 INSERT INTO dogactivities (trailDistance, feedFrequency, feedAmount, , createdAt, updatedAt)
+>>>>>>> 2b8bd82221c658dd5c93b55af667cb2969096e0d
 VALUES ("15", "Twice a Day", "Three and a Half Cups Per Day", "2020-01-01 10:10:10", "2020-01-01 10:10:10");
 
 -- seed for dogs
 INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+<<<<<<< HEAD
+VALUES ("Romeo", "Small", "Chihuahua", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",1,1);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Todd", "Medium", "Lab", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",2,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Raskal", "Large", "Mastif", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",3,3);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Sir Kingsly", "Medium", "Beagle", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",4,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Spot", "Small", "Chihuahua", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",5,1);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Fido", "Medium", "Dalmation", False,"2020-01-01 10:10:10", "2020-01-01 10:10:10",6,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Rex", "Large", "Great Dane", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",7,3);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Sally", "Medium", "Poodle", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",8,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Mister Tomkins", "Small", "Terrier", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",9,1);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Coco", "Medium", "Beagle", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",10,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Daisy", "Large", "Great Dane", False,"2020-01-01 10:10:10", "2020-01-01 10:10:10",11,3);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Rosie", "Medium", "Bull Dog", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",12,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Teddy", "Small", "Chihuahua", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",13,1);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Milo", "Medium", "", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",14,2);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Frankie", "Small", "Chihuahua", False,"2020-01-01 10:10:10", "2020-01-01 10:10:10",15,1);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Lola", "Large", "Saint Bernard", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",16,3);
+INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
+VALUES ("Oscar", "Small", "Chihuahua", True,"2020-01-01 10:10:10", "2020-01-01 10:10:10",17,1)
+=======
 VALUES ("Romeo", "Small", "Chihuahua", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",1,1);
 INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
 VALUES ("Todd", "Medium", "Lab", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",2,2);
@@ -76,6 +117,9 @@ INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, d
 VALUES ("Lola", "Large", "Saint Bernard", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",16,3);
 INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
 VALUES ("Oscar", "Small", "Chihuahua", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",17,1);
+<<<<<<< HEAD
+>>>>>>> 2b8bd82221c658dd5c93b55af667cb2969096e0d
+=======
 
 -- rooms seeds
 
@@ -96,3 +140,4 @@ VALUES ("Standard", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
 
 INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
 VALUES ("Standard", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+>>>>>>> 171cee77ed1baa606055b61924a3b025dedc608e
