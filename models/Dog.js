@@ -15,6 +15,11 @@ module.exports = function (sequelize, DataTypes) {
                 foreignKey: {
                     allowNull: false
                 }
+            }),
+            Dog.hasOne(models.rooms, {
+                foreignKey: {
+                    allowNull: true
+                }
             });
     };
 
