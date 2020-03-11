@@ -1,11 +1,13 @@
 .gallerycontent{
+  
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   margin-top: 100px;
   background-color: #ECA2C8 ;
   margin-top: auto;
-  padding: auto;
+  padding-top: 15px;
+  padding-bottom: 100px;
 }
 
 .row {
@@ -23,7 +25,6 @@
 }
 
 .card-body2 {
-  margin-top: 100px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
