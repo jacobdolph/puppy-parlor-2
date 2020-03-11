@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+
+}
+
+
+.Logo {
+    height: 60vh;
+    background: lightskyblue;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+
+
+.aboutUs {
+    height: 60vh;
+    background: lightsalmon;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.services {
+    height: 60vh;
+    background: aqua;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.contactUs {
+    height: 60vh;
+    background: #CDC9C8;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.rooms {
+    height: 60vh;
+    background: plum;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+
+
+#Logo {
+    max-width: 100%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+#toby {
+    max-width: 100%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+#hairDog {
+    max-width: 100%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+#hipsterDogs {
+    max-width: 100%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-right: auto;
+    border-radius: 50%;
+ 
+}
+
+
+#phoneDog {
+    max-width: 100%;
+    height: 60vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+
+
+#footerDog {
+    max-width: 100%;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E3192;
+    text-align: center;
+ }
+
+
+/* Contact Writing */
+
+p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: #ECA2C8 ;
+}
+
+.card2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
