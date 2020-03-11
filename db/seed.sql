@@ -76,3 +76,23 @@ INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, d
 VALUES ("Lola", "Large", "Saint Bernard", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",16,3);
 INSERT INTO dogs (name, size, breed, vaccinated, createdAt, updatedAt, UserId, dogActivityId)
 VALUES ("Oscar", "Small", "Chihuahua", true,"2020-01-01 10:10:10", "2020-01-01 10:10:10",17,1);
+
+-- rooms seeds
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Executive", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Executive", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Delux", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Delux", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Standard", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
+
+INSERT INTO rooms (room_name, room_empty, createdAt, updatedAt)
+VALUES ("Standard", true, '2020-01-01 10:10:10','2020-01-01 10:10:10');
