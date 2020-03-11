@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 
 
-// require("./routes/api-routes.js")(app);
+require("./controllers/controller.js")(app);
 
 db.sequelize.sync().then(function () {
     app.listen(PORT, function () {
