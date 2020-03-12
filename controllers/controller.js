@@ -17,6 +17,16 @@ module.exports = function (app) {
             res.json(dbRooms)
         })
     })
+    app.put("/api/rooms", function (req, res) {
+        db.rooms.update(req.body, {
+            where: {
+                id: req.body.id
+            }
+        }).then(function (dbUpdate) {
+            res.json(dbUpdate)
+        })
+    })
+
 
     app.get("/api/test", function (req, res) {
         var productArray = [
