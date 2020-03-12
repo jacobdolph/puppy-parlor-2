@@ -17,25 +17,15 @@ module.exports = function (app) {
             res.json(dbRooms)
         })
     })
-
-    app.get("/api/test", function (req, res) {
-        var productArray = [
-            {
-                name: "Delux",
-                description: "The works",
-                price: "29"
-            },
-            {
-                name: "Premium",
-                description: "The works",
-                price: "45"
-            },
-            {
-                name: "King",
-                description: "The works",
-                price: "60"
+    app.put("/api/rooms", function (req, res) {
+        db.rooms.update(req.body, {
+            where: {
+                id: req.body.id
             }
-        ]
-        res.json(productArray)
+        }).then(function (dbUpdate) {
+            res.json(dbUpdate)
+        })
     })
+
+
 }
