@@ -6,7 +6,7 @@ body {
 
 .Logo {
     height: 60vh;
-    background: lightskyblue;
+    background:
     box-sizing: border-box;
     color: white;
     
@@ -20,7 +20,7 @@ body {
 
 .aboutUs {
     height: 60vh;
-    background: lightsalmon;
+    background: #C2272D;
     box-sizing: border-box;
     color: white;
 }
@@ -28,7 +28,7 @@ body {
 
 .services {
     height: 60vh;
-    background: aqua;
+    background;
     box-sizing: border-box;
     color: white;
 }
@@ -44,7 +44,7 @@ body {
 
 .rooms {
     height: 60vh;
-    background: plum;
+    background:#ECA2C8;
     box-sizing: border-box;
     color: white;
 }
@@ -59,7 +59,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
-    max-width: 650px;
+    max-width: 750px;
     height: auto;  
 }
 
@@ -110,7 +110,6 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    margin-right: auto;
     border-radius: 50%;
 }
 
@@ -121,7 +120,6 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    margin-left: auto;
     border-radius: 50%;
 
 }
@@ -186,4 +184,37 @@ body {
     font-size: xx-large;
     font-weight: bolder;
     color: red;
+}
+
+
+/* Main Logo area */
+
+h1l {
+    color: #ECA2C8;
+    text-align: center;
+}
+
+h1r {
+    color:  #ECA2C8;
+    text-align: center;
+}
+
+/* Contact Us */
+
+pi {
+    color: #EBA86F;
+}
+
+pic {
+    color: #DA936D;
+}
+
+/* Servvices */
+
+pise {
+
+}
+
+ps {
+    
 }
