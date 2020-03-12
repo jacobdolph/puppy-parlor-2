@@ -28,24 +28,4 @@ module.exports = function (app) {
     })
 
 
-    app.get("/api/test", function (req, res) {
-        var productArray = [
-            {
-                name: "Delux",
-                description: "The works",
-                price: "29"
-            },
-            {
-                name: "Premium",
-                description: "The works",
-                price: "45"
-            },
-            {
-                name: "King",
-                description: "The works",
-                price: "60"
-            }
-        ]
-        res.json(productArray)
-    })
 }
