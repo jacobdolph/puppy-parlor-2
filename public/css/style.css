@@ -192,11 +192,51 @@ body {
 h1l {
     color: #ECA2C8;
     text-align: center;
+    text-shadow: -2px 0 #2E3192, 0 1px #2E3192, 1px 0 #2E3192, 0 -1px #2E3192;
+    
 }
 
 h1r {
     color:  #ECA2C8;
     text-align: center;
+    text-shadow: -2px 0 #2E3192, 0 1px #2E3192, 1px 0 #2E3192, 0 -1px #2E3192;
+}
+
+/* About Us */
+
+pia {
+    color: white;
+    text-align: center;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   
+}
+
+pab {
+    color: #CDC9C8;
+}
+
+/* Services */
+
+pise {
+    color: #84434E;
+    text-align: center;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+ps { 
+    color: #C3929D;
+}
+
+/* Rooms */
+
+pir {
+    color: #2E3192;
+    text-align: center;
+    text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+pr {
+    color: black
 }
 
 /* Contact Us */
@@ -207,14 +247,7 @@ pi {
 
 pic {
     color: #DA936D;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* Servvices */
 
-pise {
-
-}
-
-ps {
-    
-}
