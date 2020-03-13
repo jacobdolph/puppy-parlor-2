@@ -217,22 +217,22 @@ pab {
 /* Services */
 
 pise {
-    color: #84434E;
+    color: #C2272D;
     text-align: center;
     text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
 ps { 
-    color: #C3929D;
+    color: #C2272D;
 }
 
 /* Rooms */
 
 pir {
-    color: #2E3192;
+    color: white;
     text-align: center;
-    text-shadow: -2px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -2px 0 #2E3192, 0 1px #2E3192, 1px 0 #2E3192, 0 -1px #2E3192;
 }
 
 pr {
