@@ -14,4 +14,7 @@
     width: 100%;
     background-color: #2E3192;
     text-align: center;
+    position:fixed;
+    bottom:0;
+    left:0;
  }
