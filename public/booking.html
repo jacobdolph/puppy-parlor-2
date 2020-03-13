@@ -52,10 +52,7 @@
             style="color: #2E3192;"></i></h1>
     <div style="text-align: center;">
         <h3>Booking Details</h3>
-        <h3>Rooms</h3>
 
-        <div class="row" id="rooms">
-        </div>
 
 
         <h3>Hair Length</h3>
@@ -127,6 +124,75 @@
             <option value="complete">Deluxe spa package</option>
         </select>
     </div>
+    <h3 style="text-align: center;">Rooms</h3>
+
+    <div class="row" id="rooms">
+        <div class="col" id="0">
+            <li class="list-group-item">
+                <h4>Executive</h4>
+                <ul>
+                    <li>King bed</li>
+                    <li>Full bath</li>
+                    <li>Private feeding area</li>
+                </ul>
+            </li>
+        </div>
+        <div class="col" id="1">
+            <li class=" list-group-item">
+                <h4>Executive</h4>
+                <ul>
+                    <li>King bed</li>
+                    <li>Full bath</li>
+                    <li>Private feeding area</li>
+                </ul>
+            </li>
+        </div>
+        <div class="col" id="2">
+            <li class="list-group-item">
+                <h4>Deluxe</h4>
+                <ul>
+                    <li>Queen bed</li>
+                    <li>Half bath</li>
+                    <li>Shared feeding area</li>
+                </ul>
+            </li>
+        </div>
+        <div class="col" id="3">
+            <li class="list-group-item">
+                <h4>Deluxe</h4>
+                <ul>
+                    <li>Queen bed</li>
+                    <li>Half bath</li>
+                    <li>Shared feeding area</li>
+                </ul>
+            </li>
+        </div>
+        <li class="list-group-item">
+            <h4>Standard</h4>
+            <ul>
+                <li>Twin bed</li>
+                <li>Shared feeding area</li>
+            </ul>
+        </li>
+    </div>
+    <div class="col" id="5">
+        <li class="list-group-item">
+            <h4>Standard</h4>
+            <ul>
+                <li>Twin bed</li>
+                <li>Shared feeding area</li>
+            </ul>
+        </li>
+    </div>
+    <div style="text-align: center;">
+        <h3>Choose your room!</h3>
+        <select id="grooming" name="grooming">
+            <option value="basic">Executive</option>
+            <option value="toothbrush">Deluxe</option>
+            <option value="nailbuff">Standard</option>
+        </select>
+    </div>
+    <button style="text-align: center;">SUBMIT</button onclick="updatePage()">
 
     <div class=" footer">
         <img id="footerDog" src="./assets/images/puppyParlor.png">
@@ -134,9 +200,8 @@
 
     <script src="./js/booking.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-    </script>
-
+    <script>
+        function updatePage() { confirm("Booking was successful, an agent will contact you soon") }</script>
 </body>
 
 
