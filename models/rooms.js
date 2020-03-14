@@ -4,13 +4,13 @@ module.exports = function (sequelize, DataTypes) {
         room_empty: DataTypes.BOOLEAN
 
     });
-    rooms.associate = function (models) {
-        rooms.belongsTo(models.Dog, {
-            foreignKey: {
-                allowNull: false
-            }
-        });
-    };
+    // rooms.associate = function (models) {
+    //     rooms.belongsTo(models.Dog, {
+    //         foreignKey: {
+    //             allowNull: false
+    //         }
+    //     });
+    // };
 
     return rooms;
 };
