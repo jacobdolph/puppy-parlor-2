@@ -7,19 +7,19 @@ Puppy Parlor allows you to book a room for your pooch into high end dog hotel.
 ### Gallery
 
 Home Page:
-![Desktop View](public/assets/images/screenshot17.png "Desktop view")
+![Desktop View](public/assets/images/screenshot17.png "Home Page")
 ​
 Sign up:
-![Mobile View](public/assets/images/screenshot19.png "mobile view")
+![Mobile View](public/assets/images/screenshot19.png "Sign Up")
 
 Login:
-![Desktop View](public/assets/images/screenshot25.png "Desktop view")
+![Desktop View](public/assets/images/screenshot25.png "Login Page")
 ​
 Member Page:
-![Mobile View](public/assets/images/screenshot23.png "mobile view")
+![Mobile View](public/assets/images/screenshot23.png "Member Page")
 
 Booking Page:
-![Desktop View](public/assets/images/screenshot22.png "Desktop view")
+![Desktop View](public/assets/images/screenshot22.png "Booking Page")
 ​
 ### Tech Used
 * HTML
@@ -45,5 +45,4 @@ there you can choose which spa package you would like as part of your boading bo
 ## Challanges 
 
 * Making the right ajax calls to fully realize the CRUD method.
- there were api calls created on the backend to create read and update user data, as well as dog data, and update room datatables
- * 
+ there were api calls created on the backend to create read and update user data, as well as dog data, and update room datatables.
