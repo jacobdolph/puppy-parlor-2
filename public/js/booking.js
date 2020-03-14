@@ -45,6 +45,9 @@ $(document).ready(function () {
                 return;
             } else {
                 alert("Thank you for booking with us!")
+
+
+
             }
         }
         )
