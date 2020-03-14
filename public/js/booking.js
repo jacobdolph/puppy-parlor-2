@@ -11,9 +11,10 @@ $(document).ready(function () {
             let roomStatus = pageInfo[i].room_empty;
             let roomId = pageInfo[i].id;
             let border = $("<li/>").addClass("list-group-item")
-            let div = $("<div/>").addClass("col").attr({
+            let div = $("<button/>").addClass("col").attr({
                 "id": roomId,
-                "id_status": roomStatus
+                "id_status": roomStatus,
+                "onclick": "window.location.href='./member.html'"
             });
             let title = $("<h4/>").text(roomName);
             let uL = $("<ul/>");
@@ -35,9 +36,18 @@ $(document).ready(function () {
             div.append(border)
             row.append(div);
             console.log(roomId, roomName, roomStatus, list);
-
-
         }
+        $("#rooms").on("click", "button", function () {
+            let roomEmptyStatus = $(this).attr("id_status");
+
+            if (roomEmptyStatus != 1) {
+                alert("This room is Full");
+                return;
+            } else {
+                alert("Thank you for booking with us!")
+            }
+        }
+        )
     });
 });
 
