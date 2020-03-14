@@ -2,7 +2,7 @@ module.exports = {
   development: {
     username: process.env.MYSQL_USERNAME,
     password: process.env.MYSQL_PASSWORD,
-    database: "puppy_parlor_db",
+    database: "y15u3s3akqakrx9w",
     host: "localhost",
     dialect: "mysql",
     operatorsAliases: true
@@ -16,11 +16,8 @@ module.exports = {
     operatorsAliases: true
   },
   production: {
-    username: process.env.MYSQL_USERNAME,
-    password: process.env.MYSQL_PASSWORD,
-    database: "puppy_parlor_db_production",
-    host: "localhost",
+    use_env_variable: "JAWSDB_URL",
     dialect: "mysql",
-    operatorsAliases: true
+
   }
 }
