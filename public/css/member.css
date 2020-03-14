@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-items: stretch;
   margin-top: 100px;
-  background-color: #ECA2C8 ;
+  /* background-color: #ECA2C8 ; */
   margin-top: auto;
   padding-top: 15px;
   padding-bottom: 100px;
@@ -129,7 +129,7 @@ p1 {
 
 h2 {
   text-align: center;
-  background-color: #ECA2C8;
+  /* background-color: #ECA2C8; */
   margin: 0;
 }                   
  
