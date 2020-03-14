@@ -7,10 +7,10 @@ Puppy Parlor allows you to book a room for your pooch into high end dog hotel.
 ### Gallery
 
 Home Page:
-![Home Page](/public/assets/images/screenshot17.png "Home Page")
+![Home Page](./public/assets/images/screenshot17.png "Home Page")
 ​
 Sign up:
-![sign up](public/assets/images/screenshot19.png "Sign Up")
+![sign up](./public/assets/images/screenshot19.png "Sign Up")
 
 Login:
 ![Login](public/assets/images/screenshot25.png "Login Page")
