@@ -38,19 +38,22 @@ $(document).ready(function () {
             console.log(roomId, roomName, roomStatus, list);
         }
         $("#rooms").on("click", "button", function () {
+            const newBooking = {
+                room_empty: false
+            }
+            let id = $(this).data("id");
             let roomEmptyStatus = $(this).attr("id_status");
-
             if (roomEmptyStatus != 1) {
                 alert("This room is Full");
                 return;
             } else {
                 alert("Thank you for booking with us!")
-
-
-
-            }
-        }
-        )
+                $.ajax("/api/rooms/" + id, {
+                    type: "PUT",
+                    data: newBooking
+                });
+            };
+        });
     });
 });
 
