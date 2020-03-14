@@ -21,3 +21,29 @@ Member Page:
 Booking Page:
 ![Desktop View](public/assets/images/screenshot22.png "Desktop view")
 ​
+### Tech Used
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* Sequelize
+* Node.js
+* BootStrap
+* MYSQL
+* HEROKU
+
+## How To Use
+
+Navigate to puppy parlor https://puppy-parlor.herokuapp.com/
+
+Click sign up, that will take you to the sign up page.
+once you signup you will be redirected to the member page.
+at the member page you will see a dashboard of your profile.
+at the member page you can choose to book by clicking on the booking button.
+there you can choose which spa package you would like as part of your boading booking.
+
+## Challanges 
+
+* Making the right ajax calls to fully realize the CRUD method.
+ there were api calls created on the backend to create read and update user data, as well as dog data, and update room datatables
+ * 
