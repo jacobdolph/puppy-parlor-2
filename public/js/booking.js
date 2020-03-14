@@ -23,7 +23,7 @@ $(document).ready(function () {
                 case "Executive":
                     list = "<li>King Bed</li><li>Full Bath</li><li>Private Feeding Area</li>";
                     break;
-                case "Delux":
+                case "Deluxe":
                     list = "<li>Queen Bed</li><li>Half Bath</li><li>Shared Feeding Area</li>";
                     break;
                 case "Standard":
