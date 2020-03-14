@@ -3,7 +3,7 @@ var db = require("./../models")
 module.exports = function (app) {
 
     app.get("/api/rooms", function (req, res) {
-        db.rooms.findAll({}).then(function (dbRooms) {
+        db.rooms.findAll({ raw: true }).then(function (dbRooms) {
             res.json(dbRooms)
         })
     })
