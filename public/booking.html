@@ -25,7 +25,14 @@
                     <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
+
                     <a class="nav-link" href="./booking.html">Servies/Rooms</a>
+
+                    <a class="nav-link" href="toby">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hispterDogs">Services</a>
+
                 <li class="nav-item">
                     <a class="nav-link" href="./member.html">Member Page</a>
             </ul>
@@ -46,7 +53,7 @@
             style="color: #E086B7;"></i></h1>
     <div style="text-align: center;">
         <h3>Booking Details</h3>
-        <h3>Rooms</h3>
+
 
 
         <h3>Hair Length</h3>
@@ -118,6 +125,23 @@
             <option value="complete">Deluxe spa package</option>
         </select>
     </div>
+    <br>
+    <h3 style="text-align: center;">Rooms</h3>˜
+    <div class="row" id="rooms">
+
+    </div>
+    <div style="text-align: center;">
+        <h3>Choose your room!</h3>
+        <select id="grooming" name="grooming">
+            <option value="basic">Executive</option>
+            <option value="toothbrush">Deluxe</option>
+            <option value="nailbuff">Standard</option>
+        </select>
+    </div>
+
+    <div class="submit" style="text-align: center;">
+        <button>SUBMIT</button onclick="return updatePage()">
+    </div>
 
     <div class=" footer">
         <img id="footerDog" src="./assets/images/puppyParlor.png">
@@ -125,9 +149,8 @@
 
     <script src="./js/booking.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-    </script>
-
+    <script>
+        function updatePage() { confirm("Booking was successful, an agent will contact you soon") }</script>
 </body>
 
 
