@@ -5,7 +5,7 @@ module.exports = {
     database: "puppy_parlor_db",
     host: "localhost",
     dialect: "mysql",
-    operatorsAliases: true
+    operatorsAliases: 1
   },
   test: {
     username: process.env.MYSQL_USERNAME,
@@ -13,11 +13,11 @@ module.exports = {
     database: "puppy_parlor_db_test",
     host: "localhost",
     dialect: "mysql",
-    operatorsAliases: true
+    operatorsAliases: 1
   },
   production: {
     use_env_variable: "JAWSDB_URL",
     dialect: "mysql",
-
+    operatorsAliases: 1
   }
 }
