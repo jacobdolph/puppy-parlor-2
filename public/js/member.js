@@ -1,29 +1,28 @@
-// const fs = require("fs");
-// const util = require("util");
 
-// const readFileAsync = util.promisify(fs.readFile);
-// const writeFileAsync = util.promisify(fs.writeFile);
+$(document).ready(function () {
+    // This file just does a GET request to figure out which user is logged in
+    // and updates the HTML on the page
+    $.get("/api/user_data").then(function (data) {
+        $(".member-name").text(data.first_name);
+    });
+});
+
+$(document).ready(function () {
+    $('.modal').modal();
+});
+
+$(document).ready(function () {
+    $('#miles-submit').on("click", function () {
+        let miles = $(".miles").val().trim()
+        console.log(miles)
+        let currentMiles = $("#current-miles").text()
+        console.log(currentMiles)
+        let newDistance = parseInt(currentMiles) + parseInt(miles)
+        console.log(newDistance)
+        $("#current-miles").empty()
+        $("#current-miles").append(newDistance)
+
+    })
 
 
-
-
-
-window.onload = () => {
-    var cardBuild = function () {
-
-
-    }
-
-    cardBuild();
-
-    navigator.geolocation.getCurrentPosition(success)
-    function success(pos) {
-        let crd = pos.coords;
-        let lon = crd.longitude;
-        let lat = crd.latitude;
-
-        // queryURL = buildQueryUrl(lat, lon);
-
-
-    }
-}
+})

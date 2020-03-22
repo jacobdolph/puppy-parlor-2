@@ -1,0 +1,81 @@
+<div class="jumbotron">
+
+    <div class="row">
+        <div class="col s12 m4 l2"></div>
+        <div class="col s12 m4 l8">
+            <h2 class="center-align red-text">Welcome <span class="member-name"></span></h2>
+        </div>
+        <div class="col s12 m4 l2"></div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col s12 m4 l4">
+            <div class="card z-depth-3">
+                <div class="card-content grey-text text-darken-3">
+                    <span class="card-title center">Activity</span>
+                    <p><span class="left">Miles Hiked:</span> <span class="right">Favorite Trails:</span></p>
+                    <br>
+                    <p><span class="left" id="current-miles">0</span><span class="right">Local</span></p>
+                    <br>
+                </div>
+                <div class="card-action">
+                    <a href="#">Local Trails</a>
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Add Walk</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4 l4">
+            <div class="card z-depth-3">
+                <div class="card-content grey-text text-darken-3">
+                    <span class="card-title center">Nutrition</span>
+                    <p><span class="left">When to buy Food:</span></p>
+                    <br>
+                </div>
+                <div class="card-action">
+                    <a href="#">Food</a>
+                    <a href="#">Schedule</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4 l4">
+            <div class="card z-depth-3">
+                <div class="card-content grey-text text-darken-3">
+                    <span class="card-title center">Grooming</span>
+                    <p><span class="left">Favorite Groomers:</span> <span class="right">Next Appointment:</span></p>
+                    <br>
+
+                </div>
+                <div class="card-action">
+                    <a href="#">Groomers</a>
+                    <a href="#">Appointments</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Adding Miles</h4>
+        <p>How many miles did you walk today?</p>
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+
+                    <input id="icon_prefix" type="text" class="miles">
+                    <label for="icon_prefix"># of Miles</label>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="miles-submit">Submit</a>
+    </div>
+</div>
+<script src="/js/member.js"></script>

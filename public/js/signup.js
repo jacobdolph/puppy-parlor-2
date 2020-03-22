@@ -1,34 +1,20 @@
-$(document).ready(function () {
-    var signUpForm = $("form.signup");
-    var emailVal = $("input#email-input");
-    var passwordVal = $("input#password-input");
-
-    signUpForm.on("submit", function (event) {
-        event.preventDefault();
-        var userData = {
-            email: emailVal.val().trim(),
-            password: passwordVal.val().trim()
-        };
-
-        if (!userData.email || !userData.password) {
-            return;
-        }
-        signUpUser(userData.email, userData.password);
-        emailVal.val("");
-        passwordVal.val("");
-    });
-    function signUpUser(email, password) {
-        $.post("/api/signup", {
-            email: email,
-            password: password
-        })
-            .then(function (data) {
-                window.location.replace("./members.html");
-            })
-            .catch(handleLoginErr);
+let $clearForm = $("input.validate")
+let $firstName = $("input#firstName");
+let $lastName = $("input#lastName");
+let $email = $("input#emailAddress");
+let $password = $("input#password");
+let $password2 = $("input#password2");
+function insertUser(event) {
+    event.preventDefault();
+    var user = {
+        first_name: $firstName.val().trim(),
+        last_name: $lastName.val().trim(),
+        email: $email.val().trim(),
+        password: $password.val().trim()
     }
-    function handleLoginErr(err) {
-        $("#alert .msg").text(err.responseJSON);
-        $("#alert").fadeIn(500);
-    }
-});
+    console.log(user)
+    $.post("/api/users", user)
+    location.replace("/login")
+}
+
+$(document).on("submit", "#user-form", insertUser)
